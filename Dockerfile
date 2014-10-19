@@ -1,4 +1,5 @@
 FROM debian:jessie
+MAINTAINER Francisco Capdevila (fjcapdevila)
 
 RUN apt-get -q update
 RUN apt-get -qy install squid3
